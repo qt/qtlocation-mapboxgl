@@ -3,6 +3,10 @@
 Mapbox welcomes participation and contributions from everyone. Please read [CONTRIBUTING.md](../../CONTRIBUTING.md) to get started.
 
 ## 3.3.5
+* Back ported changes to fix an OpenGL crash. ([#6972](https://github.com/mapbox/mapbox-gl-native/pull/6972))
+* Reverted speculative fix for an OpenGL crash. ([#6844](https://github.com/mapbox/mapbox-gl-native/pull/6844))
+
+## 3.3.5
 
 * Speculatively fixed an OpenGL rendering crash. ([#6844](https://github.com/mapbox/mapbox-gl-native/pull/6844))
 * Fixed an issue with symbols not being properly stripped from the dynamic framework. The dSYM file included with the standard dynamic framework in previous releases (e.g., `mapbox-ios-sdk-3.3.4-dynamic.zip` or the `Mapbox-iOS-SDK` pod) could not be used to symbolicate crashes. ([#6531](https://github.com/mapbox/mapbox-gl-native/pull/6531))
