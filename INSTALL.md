@@ -42,7 +42,7 @@ dependencies:
 
  - Apple Command Line Tools (available at [Apple Developer](https://developer.apple.com/download/more/))
  - [Homebrew](http://brew.sh)
- - [Cask](http://caskroom.io/) (if building for Android)
+ - [Cask](https://caskroom.github.io/) (if building for Android)
  - [xcpretty](https://github.com/supermarin/xcpretty) (`gem install xcpretty`)
 
 ## 3: Setting up a development environment & building
