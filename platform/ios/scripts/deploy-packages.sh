@@ -109,8 +109,8 @@ if [[ "${GITHUB_RELEASE}" == true ]]; then
 fi
 
 buildPackageStyle "ipackage" "symbols"
-buildPackageStyle "ipackage-strip"
-buildPackageStyle "iframework" "symbols-dynamic"
-buildPackageStyle "iframework SYMBOLS=NO" "dynamic"
+#buildPackageStyle "ipackage-strip"
+#buildPackageStyle "iframework" "symbols-dynamic"
+#buildPackageStyle "iframework SYMBOLS=NO" "dynamic"
 
 step "Finished deploying ${PUBLISH_VERSION} in $(($SECONDS / 60)) minutes and $(($SECONDS % 60)) seconds"
